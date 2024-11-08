@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollFeed"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_java_advanced"
+    android:background="@drawable/centre_background"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/cardLayout1"
+        android:layout_below="@+id/cardLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/a1"
+            style="@style/centreLocatorCardDesign"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/brownmin" />
+
+                <TextView
+                    style="@style/reportContentText"
+                    android:gravity="center"
+                    android:text="Lesson 1"
+                    android:textColor="#25C0DE" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ac1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:foreground="@drawable/whatsapp_image_2022_03_03_at_20_52_22__2_"
+                android:src="@drawable/rumesh_profile"
+                app:srcCompat="@drawable/whatsapp_image_2022_03_03_at_20_52_22__2_"
+                tools:srcCompat="@drawable/whatsapp_image_2022_03_03_at_20_52_22__2_" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/a2"
+            style="@style/centreLocatorCardDesign"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/brownmin" />
+
+                <TextView
+                    style="@style/reportContentText"
+                    android:gravity="center"
+                    android:text="Lesson 2"
+                    android:textColor="#25C0DE" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ac2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:foreground="@drawable/whatsapp_image_2022_03_03_at_20_52_22__3_"
+                android:src="@drawable/rumesh_profile"
+                app:srcCompat="@drawable/whatsapp_image_2022_03_03_at_20_52_22__3_"
+                tools:srcCompat="@drawable/whatsapp_image_2022_03_03_at_20_52_22__3_" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/a3"
+            style="@style/centreLocatorCardDesign"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/brownmin" />
+
+                <TextView
+                    style="@style/reportContentText"
+                    android:gravity="center"
+                    android:text="Lesson 3 "
+                    android:textColor="#25C0DE" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ac3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="@drawable/whatsapp_image_2022_03_03_at_20_52_22__4_"
+                android:src="@drawable/rumesh_profile"
+                app:srcCompat="@drawable/whatsapp_image_2022_03_03_at_20_52_22__4_"
+                tools:srcCompat="@drawable/whatsapp_image_2022_03_03_at_20_52_22__4_" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

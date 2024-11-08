@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="headerTextSize">30sp</dimen>
+
+    <dimen name="etMargin">12sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="form_app_bar_height">250dp</dimen>
+
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="half_dp">0.5dp</dimen>
+
+    <dimen name="edit_text_radius">3dp</dimen>
+
+</resources>

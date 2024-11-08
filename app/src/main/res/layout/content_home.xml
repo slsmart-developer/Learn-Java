@@ -1,0 +1,156 @@
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollFeed"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_home"
+    android:background="@drawable/centre_background"
+    android:focusableInTouchMode="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/cardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <androidx.cardview.widget.CardView
+                style="@style/reportsCardStyle"
+                app:cardBackgroundColor="@color/whiteTextColor"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:id="@+id/btnBeginner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="177dp"
+                        android:layout_height="162dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/javawhite" />
+
+                    <TextView
+                        style="@style/reportContentText"
+                        android:layout_gravity="center"
+                        android:text="Beginner"
+                        android:textColor="#79D0A3" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/reportsCardStyle"
+                app:cardBackgroundColor="@color/whiteTextColor"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:id="@+id/btnIntermediate"
+                    android:layout_width="168dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="186dp"
+                        android:layout_height="166dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/javagreen" />
+
+                    <TextView
+                        style="@style/reportContentText"
+                        android:layout_gravity="center"
+                        android:text="Intermediate"
+                        android:textColor="#79D0A3" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardLayout1"
+            android:layout_below="@+id/cardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/whiteTextColor"
+                style="@style/reportsCardStyle">
+
+                <LinearLayout
+                    android:id="@+id/btnAdvanced"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="183dp"
+                        android:layout_height="173dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/javabrown" />
+
+                    <TextView
+                        style="@style/reportContentText"
+                        android:textColor="#79D0A3"
+                        android:layout_gravity="center"
+                        android:text="Advanced"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/whiteTextColor"
+                style="@style/reportsCardStyle">
+                <LinearLayout
+                    android:id="@+id/btnMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="173dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/javapurple" />
+
+                    <TextView
+                        style="@style/reportContentText"
+                        android:layout_gravity="center"
+                        android:textColor="#79D0A3"
+                        android:text="Learn More"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
+
+
+

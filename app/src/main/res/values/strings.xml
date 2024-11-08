@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Learn Java</string>
+    <string name="learn_java">Learn Java</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="newpassword">New Password</string>
+    <string name="password">Password</string>
+    <string name="appabove">This Application is developed as a Coursework to Nottingham Trent University by MSc student Rumesh Rajapakse.</string>
+    <string name="address">Address- Flat2 87, Trent Boulevard, Westbridgford, Nottingham NG25BE</string>
+    <string name="linkedin">🔗 <a href="https://www.linkedin.com/in/rumesh-rajapakse-90b275101">LinkedIn</a></string>
+    <string name="facebook">🔗 <a href="https://www.facebook.com/Rome.the.rock">Facebook</a></string>
+    <string name="whatsapp">🔗 <a href="https://wa.link/jptk3z">WhatsApp</a></string>
+
+    <string name="javatpoint">🔗 <a href="https://www.javatpoint.com/java-tutorial">javatpoint.com</a></string>
+    <string name="tutorialspoint">🔗 <a href="https://www.tutorialspoint.com/java/index.htm">tutorialspoint.com</a></string>
+    <string name="edureka">🔗 <a href="https://www.edureka.co/blog/advanced-java-tutorial">Advanced Java Tutorial</a></string>
+
+
+
+
+
+</resources>
